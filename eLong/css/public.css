@@ -1,0 +1,875 @@
+/*
+* @Author: mr.z
+* @Date:   2016-05-13 21:35:53
+* @Last Modified by:   mr.z
+* @Last Modified time: 2016-05-13 21:44:06
+*/
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*版心提取*/
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.al {
+    text-align: left;
+}
+
+.ac {
+    text-align: center;
+}
+
+.ar {
+    text-align: right;
+}
+
+.hide {
+    display: none;
+}
+
+/*去掉列表的默认样式*/
+ul, ol {
+    list-style: none;
+}
+
+/*各浏览器显示不同，去掉蓝色边框*/
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+/*清除浮动*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+/*设置字体样式*/
+
+body {
+    font: 12px/150% Arial, Verdana, "\5FAE\8F6F\96C5\9ED1,\5b8b\4f53";
+    color: #131313;
+    background: #fff;
+}
+
+/*a标签的样式*/
+a {
+    color: #999;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF5555;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em, b {
+    font-style: normal;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: normal;
+}
+
+em {
+    font: 14px/18px Microsoft yahei;
+}
+
+span {
+    display: inline-block;
+}
+
+/*宽度*/
+.w50 {
+    width: 50px;
+}
+
+.w60 {
+    width: 60px;
+}
+
+/*margin值*/
+
+.mt5 {
+    margin-top: 5px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mr5 {
+    margin-right: 5px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+/*padding值*/
+
+.pt5 {
+    padding-top: 5px;
+}
+
+.pt10 {
+    padding-top: 10px;
+}
+
+/*==============================================================================*/
+
+/*头部样式开始*/
+
+/*头部上半部分开始*/
+
+.header_top {
+    padding-top: 12px;
+}
+
+/*logo设置*/
+.logo {
+    margin-top: 2px;
+}
+
+/*头部logo右边内容*/
+.header_r {
+
+    height: 42px;
+}
+
+/*头部右面导航条*/
+
+.branch_menu {
+    padding-right: 20px;
+    position: relative;
+}
+
+.branch_menu span {
+    padding: 0 10px;
+    color: #C5C5C5;
+}
+
+.branch_menu b {
+    color: #C5C5C5;
+}
+
+/*微信客服下面的盒子*/
+
+.custom_wx {
+    position: relative;
+}
+
+.custom_wx_box {
+    height: 80px;
+    width: 204px;
+    border: 1px solid #c5c5c5;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: -20px;
+    padding: 10px;
+    top: 32px;
+    z-index: 1;
+    display: none;
+    background: #fff url(../images/ss001.png) no-repeat 0 0;
+
+}
+
+.custom_wx_box i {
+    background: url(../images/icon_2015.png) -211px -2px;
+    height: 9px;
+    width: 18px;
+    left: 37px;
+    position: absolute;
+    top: -9px;
+}
+
+/*语言选择边箭头*/
+.language i {
+    width: 9px;
+    height: 5px;
+    background: url("../images/icon_2015.png") -358px -13px no-repeat;
+    margin: 8px 0 0 3px;
+}
+
+/*语言选择隐藏的盒子*/
+
+.language {
+    position: relative;
+    border: 1px solid #fff;
+    width: 59px;
+    position: relative;
+    margin-top: -1px;
+}
+
+.languaget {
+    border: 1px solid #cacaca;
+    border-bottom: none;
+}
+
+.language p {
+    width: 79px;
+    border: 1px solid #c3c3c3;
+    border-top: none;
+    background-color: #fff;
+    position: absolute;
+    left: -1px;
+    top: 18px;
+    padding: 5px 0 0 0;
+    display: none;
+}
+
+.language p a {
+    border-top: 1px dashed #cacaca;
+    padding: 0 15px 0 5px;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/*手机专享5折*/
+
+.one_panic {
+    width: 150px;
+    height: 42px;
+    margin-right: 10px;
+    line-height: 20px;
+    position: relative;
+}
+
+.com_icon01 {
+    background: url("../images/com_icon_phone.gif") no-repeat;
+    width: 42px;
+    height: 42px;
+}
+
+.one_panic em {
+    color: #FF6C67;
+    font-size: 14px;
+    padding-left: 10px;
+    font: 14px/18px Microsoft yahei;
+}
+
+.com_icon02 {
+    width: 42px;
+    height: 42px;
+    background: url("../images/icon_2015.png") -42px -2px no-repeat;
+    margin-right: 10px;
+    z-index: 5;
+}
+
+/*隐藏的二维码*/
+.only_pione {
+    width: 217px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    background: url("../images/icon_2015.png") no-repeat -373px -229px;
+    background-color: #fff;
+    border: 1px solid #C5C5C5;
+    height: 92px;
+    position: absolute;
+    left: 0;
+    top: 54px;
+    padding: 10px;
+    display: none;
+    z-index: 5;
+}
+
+.only_pione i {
+    background: url("../images/icon_2015.png") -211px -2px;
+    width: 18px;
+    height: 9px;
+    position: absolute;
+    left: 37px;
+    top: -9px;
+
+}
+
+/*客服电话部分*/
+
+.header_r .custom_call {
+    width: 180px;
+    line-height: 20px;
+    position: relative;
+}
+
+.custom_call em {
+    color: #9F9F9F;
+    font: 14px/18px Microsoft yahei;
+}
+
+.custom_call b {
+    color: #2664C8;
+    position: relative;
+    font: 14px/18px Microsoft yahei;
+    font-size: 16px;
+}
+
+/*客服电话后的箭头*/
+.com_icon04 {
+    width: 9px;
+    height: 8px;
+    background: url("../images/icon_2015.png") -378px -12px;
+    margin: 7px 0 0 3px;
+}
+
+/*隐藏的盒子样式*/
+.on_phonnum {
+    width: 160px;
+    border: 1px solid #CCCCCC;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    padding: 4px 10px;
+    background-color: #fff;
+    position: absolute;
+    top: 54px;
+    left: 0;
+    display: none;
+    z-index: 1;
+}
+
+.on_phonnum li {
+    border-bottom: 1px dashed #C5C5C5;
+    color: #999;
+    padding: 5px 0;
+}
+
+.com_arrow_tl {
+    width: 18px;
+    height: 9px;
+    background: url("../images/icon_2015.png") -211px -2px;
+    position: absolute;
+    left: 37px;
+    top: -9px;
+}
+
+/*上半部分结束*/
+
+/*头部导航条部分开始*/
+
+.header_nav {
+    height: 40px;
+    margin-top: 13px;
+    background-color: #2064C8;
+}
+
+.link li {
+    border-right: 1px solid #3774ce;
+    position: relative;
+    height: 40px;
+    float: left;
+}
+
+.link li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 12px;
+    color: #FFF;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+
+.link li a:hover {
+    background-color: #0053AC;
+}
+
+/*导航条右侧登陆部分*/
+
+.login_register {
+    position: relative;
+}
+
+.login_register .log {
+    width: 120px;
+    height: 40px;
+    background-color: #003679;
+    line-height: 40px;
+    text-align: center;
+}
+
+.login_register span {
+    padding: 0 4px;
+}
+
+.login_register span a, .login_register .log b {
+    color: #FFF;
+    font-family: 'Microsoft YaHei', Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+}
+
+.login_register span a:hover {
+    color: #FFF544;
+}
+
+/*登录隐藏的盒子*/
+.land_box {
+    width: 208px;
+    background-color: #fff;
+    border: 1px solid #C5C5C5;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    right: 0;
+    top: 40px;
+    display: none;
+    z-index: 5;
+}
+
+.login_btn {
+    margin: 15px;
+    margin-bottom: 0;
+}
+
+.login_btn a {
+    background-color: #F80;
+    display: block;
+    width: 180px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font: 18px/34px "Microsoft YaHei";
+    color: #fff;
+    border-radius: 3px;
+}
+
+.land_box ul {
+    width: 190px;
+    padding: 20px 10px 0;
+    overflow: hidden;
+}
+
+.land_box li {
+    width: 63px;
+    float: left;
+    height: 60px;
+    margin: 0 0 10px 0;
+    position: relative;
+}
+
+.land_box li a {
+    width: 60px;
+
+    padding-top: 34px;
+    text-align: center;
+    color: #999999;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.land_box li b {
+    background: url("../images/el_com.png") no-repeat #fff;
+    display: block;
+    width: 60px;
+    height: 55px;
+}
+
+.land_box .icon_d1 b{
+    background-position: -146px -680px;
+}
+.land_box .icon_d4 b{
+    background-position: -146px -630px;
+}
+.land_box .icon_d7 b{
+    background-position: -146px -570px;
+}
+.land_box .icon_d2 b{
+    background-position: -212px -570px;
+}
+
+.land_box .icon_d5 b{
+    background-position: -212px -630px;
+}
+
+.land_box .icon_d3 b{
+    background-position: -212px -680px;
+}
+
+.land_box .icon_d6 b{
+    background-position: -272px -625px;
+}
+
+.land_box .icon_d8 b{
+    background-position: -272px -570px;
+}
+
+.land_box .icon_d9 b{
+    background-position: -272px -680px;
+}
+/*头部LOGO和导航条结束*/
+
+/*尾部开始*/
+.footer {
+    margin-top: 20px;
+    padding: 20px 0;
+    border-top: 1px solid #EEEEEE;
+}
+
+.foorer_info {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.foorer_info dl {
+    width: 18%;
+    float: left;
+    padding-left: 7%;
+
+}
+
+.foorer_info dt {
+    border-left: 3px solid #5D96C7;
+    padding: 0 0 0 10px;
+    height: 18px;
+    font: 18px/1 "Microsoft YaHei";
+    margin-bottom: 10px;
+}
+
+.foorer_info dd {
+    padding-left: 14px;
+    line-height: 24px;
+}
+
+.foorer_info dd a {
+    color: #333;
+}
+
+.foorer_info dd a:hover {
+    color: #FF5555;
+}
+
+/*右侧二维码*/
+
+.foorer_info_app {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background: url("../images/icon_2015.png") no-repeat;
+    background-position: -502px 0;
+}
+
+.foorer_info_wx {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background: url("../images/icon_2015.png") no-repeat;
+    background-position: -500px -100px;
+}
+
+/*网站注册信息*/
+.footer_copy {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.footer_copy a {
+    color: #333;
+}
+
+.footer_safe {
+    height: 37px;
+    text-align: center;
+}
+
+.footer_safe a {
+    display: inline-block;
+    height: 37px;
+    margin: 0 5px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.footer_safe_icon1 {
+    background: url("../images/el_com.png") -331px -482px no-repeat;
+    width: 60px;
+}
+
+.footer_safe_icon2 {
+    background: url("../images/el_com.png") -472px -438px no-repeat;
+    width: 92px;
+}
+
+.footer_safe_icon3 {
+    background: url("../images/el_com.png") -564px -438px no-repeat;
+    width: 92px;
+}
+
+.footer_safe_icon4 {
+    background: url("../images/el_com.png") -656px -438px no-repeat;
+    width: 92px;
+}
+
+/*尾部导航*/
+
+.bottom_nav {
+    background-color: #7c8fa2;
+    height: 40px;
+    line-height: 40px;
+}
+
+.bottom_nav ul {
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+.bottom_nav li {
+    float: left;
+    text-align: center;
+}
+
+.bottom_nav a {
+    display: block;
+    width: 166px;
+    height: 40px;
+    color: #fff;
+
+}
+
+.bottom_nav a:hover {
+    background-color: #8da1b5;
+}
+
+.action {
+    background-color: #c0d2e4;
+}
+
+/*尾部结束*/
+
+/*轮播图开始*/
+.banner {
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner_wrap {
+    width: 100%;
+    height: 380px;
+    /*overflow: hidden;*/
+    position: absolute;
+}
+
+ul.show_pic {
+    width: 100%;
+    height: 380px;
+    position: relative;
+    overflow: hidden;
+}
+
+.show_pic li {
+    width: 100%;
+    position: absolute;
+}
+
+.show_pic a {
+    height: 380px;
+    display: block;
+
+}
+
+.pic2 {
+    opacity: 0;
+}
+
+.pic3 {
+    opacity: 0;
+}
+
+.show_pic01 {
+    background: url(../images/banner1_20160510.jpg) no-repeat center bottom;
+}
+
+.show_pic02 {
+    background: url(../images/banner1_20160511.jpg) no-repeat center bottom;
+}
+
+.show_pic03 {
+    background: url(../images/banner1_20160505.jpg) no-repeat center bottom;
+}
+
+.dots {
+    position: absolute;
+    top: 360px;
+    right: 50%;
+    height: 30px;
+    width: 250px;
+    height: 30px;
+    margin-right: -603px;
+    text-align: right;
+}
+
+.dots .dot {
+    width: 24px;
+    height: 4px;
+    overflow: hidden;
+    display: inline-block;
+    background: url("../images/icon_index.png") no-repeat;
+    background-position: -511px -373px;
+    cursor: pointer;
+
+}
+
+.dots .active {
+    background-position: -511px -392px;
+    cursor: default;
+}
+
+/*登陆show开始*/
+.no_record {
+    display: none;
+}
+
+.no_record_inf {
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 1px solid #CCCCCC;
+    font-size: 14px;
+    color: #555;
+    font-family: "Microsoft YaHei";
+}
+
+.no_record_inf .icon05 {
+    background-position: -583px -14px; !important;
+    height: 14px;
+    width: 14px;
+    display: inline-block;
+    overflow: hidden;
+}
+.ei_icon_xin{
+    background: url("../images/icon_index.png") no-repeat;
+    overflow: hidden;
+}
+
+.no_record_inf a {
+    color: #37e;
+}
+
+.no_record_inf a:hover {
+    color: #ff5555;
+}
+
+/*登陆show结束*/
+
+/*手风琴特效开始*/
+.fold_wrap {
+    overflow: hidden;
+}
+
+.fold_wrap ul {
+    width: 1200px;
+    height: 260px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.fold_wrap li {
+    float: left;
+    width: 170px;
+    height: 260px;
+    position: relative;
+    cursor: pointer;
+}
+
+/*.fold_wrap .first_fold_l {*/
+/*width: 168px;*/
+/*}*/
+
+.pic_auto1 {
+    background: url("../images/20150422_ifold1.jpg") no-repeat center 0;
+}
+
+.pic_auto2 {
+    background: url("../images/20150120_ifold2.jpg") no-repeat center 0;
+}
+
+.pic_auto3 {
+    background: url("../images/20150120_ifold3.jpg") no-repeat center 0;
+}
+
+.pic_auto4 {
+    background: url("../images/20150120_ifold4.jpg") no-repeat center 0;
+}
+
+.pic_auto5 {
+    background: url("../images/20150120_ifold5.jpg") no-repeat center 0;
+}
+
+.pic_auto6 {
+    background: url("../images/20150120_ifold6.jpg") no-repeat center 0;
+}
+
+.pic_auto7 {
+    background: url("../images/20150120_ifold7.jpg") no-repeat center 0;
+}
+
+.pic_auto {
+    width: 100%;
+    height: 100%;
+}
+
+.mask_b {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, .3);
+}
+
+.mask_b h4 {
+    color: #fff;
+    width: 30px;
+    margin: 0 auto;
+    display: block;
+    font: 30px/30px Microsoft Yahei;
+    position: relative;
+    padding: 30px 0 0 0;
+}
+
+/*手风琴特效结束*/

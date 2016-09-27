@@ -1,0 +1,87 @@
+@charset "UTF-8";
+.sales{
+    width: 1200px;
+    margin: 20px auto 0;
+}
+.title-cu{
+    width: 1200px;
+    border-bottom: 2px solid #B73;
+    line-height: 42px;
+}
+.title-cu a{
+    padding: 5px 0;
+    color: #B73;
+    font-weight: 700;
+    font-size: 25px;
+}
+.title-cu:hover a{
+    color:  #B73;
+}
+.tab_theme{
+    margin: 0 auto;
+}
+.mt20{
+    margin-top: 20px;
+    width: 1200px;
+
+}
+.mt20 ul{
+    overflow: hidden;
+}
+.tab_theme li {
+    width: 290px;
+    margin: 0 12px 0 0;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.city_name{
+    width: 180px;
+    font-size: 10px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 5px;
+
+
+
+}
+.city_name span{
+    width: 220px;
+    position: absolute;
+    top: 20px;
+    font-size: 15px;
+    left: 0px;
+    padding-top: 15px;
+
+}
+.scale_tour{
+    background: #f7f7f7;
+    padding: 5px 15px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1px;
+}
+.tab_theme .mr0{
+    margin-right: 0;
+}
+.scale_tour p{
+    color: #555;
+    font: 14px/30px Microsoft yahei;
+}
+.t36 {
+    height: 170px;
+    /*margin:0 auto;*/
+}
+.pic_add{
+    width: 290px;
+    height: 160px;
+    overflow: hidden;
+}
+.pic_add img{
+    width: 290px;
+    height: 170px;
+    position: relative;
+}

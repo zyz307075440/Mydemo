@@ -1,0 +1,100 @@
+@charset "UTF-8";
+.service{
+    width: 1200px;
+    margin: 20px auto 0;
+}
+.srvice-box1{
+    background: #f7f7f7;
+    height: 60px;
+    overflow: hidden;
+    padding: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #555;
+}
+
+.srvice-box1 ul li{
+    float: left;
+    width: 25%;
+    line-height: 60px;
+    font: 16px/60px Microsoft yahei;
+}
+.srvice-box1 li i{
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin: 0 10px 0 0;
+}
+.serviceimg1{
+    background:url("../images/icon_index.png") no-repeat -91px -4px ;
+}
+.serviceimg2{
+    background:url("../images/icon_index.png") no-repeat -159px -4px ;
+}
+.serviceimg3{
+    background:url("../images/icon_index.png") no-repeat -228px -4px ;
+}
+.serviceimg4{
+     background:url("../images/icon_index.png") no-repeat -295px -6px ;
+ }
+.serviceeml{
+    height: 80px;
+    overflow: hidden;
+    background-color:#f7f7f7;
+    position: relative;
+}
+.serviceleft{
+    width:120px;
+    height:103px;
+    position: absolute;
+    background: url("../images/icon_index.png") no-repeat -370px -8px;
+    left: -46px;
+    top: -18px;
+        
+}
+.servicemid{
+    width: 680px;
+    margin: 24px auto 0;
+}
+.servicemid span{
+    font: 16px/30px Microsoft yahei;
+    color: #71829d;
+    padding: 0 5px;
+    float: left;
+}
+.servicemid input{
+    float: left;
+    width: 200px;
+    height: 28px;
+    border: 1px solid #ccc;
+    color: #555;
+}
+#service-input{
+    width: 80px;
+    background: #3377dd;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    float: left;
+    padding: 0 3px;
+    font: 14px/30px Microsoft yahei;
+}
+.serviceright{
+    width: 84px;
+    height: 80px;
+  position: absolute;
+    right: 0;
+    top: 0;
+  padding: 0 20px 0 0;
+}
+.serviceright a{
+    color: #37d;
+    font: 14px/80px Microsoft yahei;
+
+}
+.serviceright a:hover{
+    color: #C81623;
+}

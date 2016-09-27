@@ -1,0 +1,267 @@
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*版心提取*/
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.al {
+    text-align: left;
+}
+
+.ac {
+    text-align: center;
+}
+
+.ar {
+    text-align: right;
+}
+
+.hide {
+    display: none;
+}
+
+/*去掉列表的默认样式*/
+ul, ol {
+    list-style: none;
+}
+
+/*各浏览器显示不同，去掉蓝色边框*/
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+/*清除浮动*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+/*设置字体样式*/
+
+body {
+    font: 12px/150% Arial, Verdana, "\5FAE\8F6F\96C5\9ED1,\5b8b\4f53";
+    color: #131313;
+    background: #fff;
+}
+
+/*a标签的样式*/
+a {
+    color: #999;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF5555;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em, b {
+    font-style: normal;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: normal;
+}
+
+em {
+    font: 14px/18px Microsoft yahei;
+}
+
+span {
+    display: inline-block;
+}
+
+/*margin值*/
+
+.mt5 {
+    margin-top: 5px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mr5 {
+    margin-right: 5px;
+}
+
+/*padding值*/
+
+.pt5 {
+    padding-top: 5px;
+}
+
+.pt10 {
+    padding-top: 10px;
+}
+
+.pr {
+    padding-right: 5px;
+}
+
+.pr10 {
+    padding-right: 10px;
+}
+
+.pr20 {
+    padding-right: 20px;
+}
+
+/*==============================================================================*/
+/*目的地开始*/
+.termini_wrap {
+    height: 566px;;
+    font-family: "Microsoft YaHei";
+}
+
+.termini_title h2 {
+    border-bottom: 2px solid #f55;
+    padding: 5px 0;
+}
+
+.termini_title a {
+    font: 24px/30px "Microsoft YaHei";
+    color: #f55;
+}
+
+.termini_title span {
+    font: 14px/30px "Microsoft YaHei";
+    color: #999;
+
+}
+
+/*国内板块开始*/
+.internal_h3 {
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.internal_h3 a {
+    font: 18px/26px "Microsoft YaHei";
+    color: #555;
+}
+
+.icon_05 {
+    width: 24px;
+    height: 24px;
+    background-position: -576px -101px;
+}
+
+.internal_h3 span {
+    font-size: 14px;
+    color: #555;
+    line-height: 22px;
+    padding: 0px 9px;
+    margin: 4px 10px 0;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    float: left;
+    display: inline-block;
+
+}
+
+.internal_h3 a:hover {
+    color: #f55;
+}
+
+.internal_h3 .home_more{
+    font-size:14px;
+}
+
+/*图片部分*/
+
+.internal_tab {
+    width: 1220px;
+    height: 202px;
+    overflow: hidden;
+}
+.internal_tab li{
+    float: left;
+    width: 293px;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.pic_add {
+    height: 160px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.pic_add img {
+    display: block;
+    width: 100%;
+    margin-top: -20px;
+    position: relative;
+}
+
+.city_name {
+    position: absolute;
+    top: 124px;
+    left: 0;
+    color:#fff;
+    font-size: 24px;
+
+}
+
+.scale_tour {
+    padding: 5px;
+    background-color: #F7F7F7;
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom:1px;
+}
+
+.scale_tour p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #555;
+
+}
+/*国内板块结束*/
+/*目的地结束*/

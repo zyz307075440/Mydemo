@@ -1,0 +1,772 @@
+/*头部工具开始*/
+.header {
+    width: 100%;
+    float: left;
+}
+
+.header_top {
+    width: 1200px;
+    height: 75px;
+}
+
+.logo img {
+    width: 130px;
+    height: 48px;
+    float: left;
+    display: block;
+    margin-top: 14px;
+}
+
+.means {
+    width: 715px;
+}
+
+.means ul {
+    float: right;
+}
+
+.means ul li {
+    float: left;
+    margin: 0 5px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.means .spacer {
+    width: 1px;
+    height: 12px;
+    padding: 0;
+    margin-top: 25px;
+    background-color: #D8D8D8;
+}
+
+.means .com_icon04 {
+    float: right;
+    width: 11px;
+    height: 8px;
+    background: url("../images/icon2015-0.png") no-repeat;
+    background-position: -357px -772px;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.means .language p {
+    display: none;
+}
+
+.hot_line {
+    float: left;
+    width: 330px;
+    margin-top: 20px;
+    margin-left: 19px;
+}
+
+.hot_line ul li {
+    float: left;
+    width: 165px;
+
+}
+
+.hot_line ul li img {
+    display: block;
+    float: left;
+
+}
+
+.hot_line ul li em {
+    float: left;
+    float: left;
+    color: #ff6a6a;
+    font: 14px/18px Microsoft yahei;
+    padding: 0 0 0 10px;
+    width: 100px;;
+}
+
+.hot_line .col-b {
+    color: #666;
+}
+
+.hot_line ul li b {
+    color: #2064c8;
+    font: 16px Microsoft yahei;
+    width: 124px;
+    padding: 0 0 0 10px;
+}
+
+.on_phonnum {
+    display: none;
+}
+
+/*头部工具结束*/
+
+/*导航部分开始*/
+.nav {
+    float: left;
+    width: 100%;
+    background-color: #2064C8;
+    height: 40px;
+}
+
+.nav_d .gj {
+    position: relative;
+}
+
+.nav_d ul li {
+    float: left;
+    line-height: 40px;
+    border-right: 1px solid #3774ce;
+}
+
+.nav_d .icon_reserve {
+    position: absolute;
+    top: -8px;
+    right: 0px;
+    width: 21px;
+    height: 20px;
+    background: url("../images/icon2015-0.png") no-repeat;
+    background-position: -511px 0px;
+}
+
+.nav_d .icon_reserve1 {
+    position: absolute;
+    top: -8px;
+    right: 0px;
+    width: 39px;
+    height: 20px;
+    background: url("../images/icon2015-0.png") no-repeat;
+    background-position: -472px -29px;
+}
+
+.nav_d .icon_reserve2 {
+    position: absolute;
+    top: -8px;
+    right: 0px;
+    width: 39px;
+    height: 20px;
+    background: url("../images/icon2015-0.png") no-repeat;
+    background-position: -540px 0px;
+}
+
+.nav_d .icon_reserve3 {
+    position: absolute;
+    top: -8px;
+    right: 0px;
+    width: 16px;
+    height: 20px;
+    background: url("../images/icon2015-0.png") no-repeat;
+    background-position: -492px 0px;
+}
+
+.nav_d ul li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 12px;
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: Microsoft Yahei, Tahoma, Geneva, sans-serif;
+}
+
+.nav_d ul li a:hover {
+    background: #0053ac;
+}
+
+.account {
+    float: right;
+
+}
+
+.account .log {
+    line-height: 40px;
+    width: 120px;
+    background: #003679;
+    margin-right: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.account .log a {
+    color: #fff;
+    font-family: Microsoft YaHei, Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+}
+
+.account .drop_box_log {
+    display: none;
+}
+
+/*导航部分结束*/
+
+/*.banner {*/
+/*float: left;*/
+/*width: 100%;*/
+/*height: 380px;*/
+/*background-color: pink;*/
+/*margin-bottom: 10px;*/
+/*}*/
+
+/*热门旅游目的地*/
+.hot_tour_all {
+    float: left;
+    width: 100%;
+}
+
+.hot_tour_all_con {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.n_conBoxT {
+    height: 120px;
+}
+
+.n_conBoxT1 {
+    width: 100%;
+    height: 120px;
+    line-height: 100px;
+    font-size: 30px;
+    font-family: Microsoft Yahei, Tahoma, Geneva, sans-serif;
+    color: #555;
+    text-align: center;
+}
+
+.n_conBoxT2 {
+    width: 100%;
+    font-size: 14px;
+    font-family: Microsoft Yahei, Tahoma, Geneva, sans-serif;
+    color: #999;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.n_conBoxTC {
+    width: 1400px;
+}
+
+.n_conBoxTC ul li {
+    width: 385px;
+    height: 250px;
+    float: left;
+    margin-right: 22.3px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.n_conBoxTC ul li:last-child {
+    margin-right: 0px !important;
+
+}
+
+.hotel_title {
+    width: 355px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 20px 15px;
+    font-size: 14px;
+    font-family: Microsoft Yahei, Tahoma, Geneva, sans-serif;
+    color: #fff;
+}
+
+.hotel_title span {
+    font-size: 24px;
+}
+
+.hotel_title em {
+    font-size: 14px;
+    font-family: Microsoft Yahei, Tahoma, Geneva, sans-serif;
+    color: #fff;
+}
+
+.n_mask {
+    width: 385px;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.5) !important;
+    background: url(../images/mask.png);
+    position: absolute;
+    bottom: -55px;
+    left: 0px;
+    overflow: hidden;
+    cursor: pointer;
+    color: #fff;
+}
+
+.n_maskC {
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-family: Microsoft Yahei, Tahoma, Geneva, sans-serif;
+    line-height: 26px;
+}
+
+.n_maskC1 span {
+    font-size: 24px;
+}
+
+/*热门旅游目的地结束*/
+
+/*度假主题 开始*/
+.bgf5 {
+    float: left;
+    width: 100%;
+    background-color: #f5f5f5;
+
+}
+
+.n_conBox2 {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.n_conBox2T {
+
+}
+
+.n_conBox2T1 {
+    text-align: center;
+    margin-top: 25px;
+    line-height: 30px;
+    font-size: 30px;
+    font-family: Microsoft Yahei, Tahoma, Geneva, sans-serif;
+    color: #555;
+}
+
+.n_conBox2T2 {
+    width: 530px;
+    height: 80px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.n_conBox2T2 ul {
+    width: 600px;
+}
+
+.n_conBox2T2 li {
+    width: 60px;
+    height: 70px;
+    float: left;
+    margin-right: 56px;
+    cursor: pointer;
+}
+
+.on_i {
+
+    background: url(../images/icons.png);
+    height: 0;
+    width: 61px;
+    display: block;
+
+}
+
+.check a {
+    width: 61px;
+    height: 61px;
+    background: url(../images/icons.png);
+
+    display: block;
+}
+
+.check .n_icons_1 {
+    background-position: 0px -300px;
+}
+
+.check .n_icons_2 {
+    background-position: 0px -400px;
+}
+
+.check .n_icons_3 {
+    background-position: 0px -500px;
+}
+
+.check .n_icons_4 {
+    background-position: 0px -600px;
+}
+
+.check .n_icons_5 {
+    background-position: 0px -700px;
+}
+
+.n_icons_1 .on_i {
+    background-position: -100px -300px;
+}
+
+.n_icons_2 .on_i {
+    background-position: -100px -400px;
+}
+
+.n_icons_3 .on_i {
+    background-position: -100px -500px;
+}
+
+.n_icons_4 .on_i {
+    background-position: -100px -600px;
+}
+
+.n_icons_5 .on_i {
+    background-position: -100px -700px;
+}
+
+/*.n_conBox2T2 .n_icons_1 i {*/
+/*background: url(../images/icons.png);*/
+
+/*height: 61px;*/
+/*width: 61px;*/
+/*display: block;*/
+
+/*}*/
+
+.n_conBox2T2 li span {
+    position: relative;
+    top: 3px;
+    margin-left: 6px;
+}
+
+.n_conBox2TC {
+    position: relative;
+    width: 1184px;
+    height: 412px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+ul.bg2 {
+    width: 5000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.n_conBox2TC ul li {
+    float: left;
+
+}
+
+.bg4 {
+    width: 385px;
+    height: 414px;
+}
+
+.n_column {
+    float: left;
+    margin-left: 15px;
+}
+
+.n_column:first-child {
+    float: left;
+    margin-left: 0px;
+}
+
+.n_bigPicBox {
+    width: 385px;
+    overflow: hidden;
+}
+
+.n_column .bigPic {
+    height: 410px;
+    display: block;
+}
+
+.n_bigPicBox {
+    position: relative;
+}
+
+.decroBg {
+    font-family: Microsoft Yahei, Tahoma, Geneva, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.decroBg {
+    width: 385px;
+    height: 221px;
+    position: absolute;
+    top: 190px;
+    background: url(../images/decrbg_1.png) 33px 0;
+    border-bottom: 1px solid #f5f5f5;
+    color: #131313;
+}
+
+.n-center-icon {
+    width: 81px;
+    height: 81px;
+    background: url(../images/icons.png) -200px 0px;
+    position: absolute;
+    top: 10px;
+    left: 153px;
+}
+
+.decroBg div {
+    padding: 90px 20px 0 20px;
+}
+
+.decroBg .decroBg_02 {
+    padding: 60px 20px 0 20px;
+}
+
+.decroBg  .decroBg_04{
+    padding: 68px 20px 0 20px;
+}
+.decroBg  .decroBg_05{
+    padding: 72px 20px 0 20px;
+}
+.decroBgT {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.n_columnOne {
+    width: 385px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.MT10 {
+    margin-top: 10px;
+}
+
+.n_themedTourCon .n_column {
+    width: 385px;
+    height: 414px;
+    float: left;
+    position: relative;
+    font-size: 16px;
+    font-family: Microsoft Yahei, Tahoma, Geneva, sans-serif;
+    overflow: hidden;
+}
+
+.decroBg2 {
+    width: 385px;
+    height: 40px;
+    background: #fff;
+    position: absolute;
+    bottom: 0px;
+    cursor: pointer;
+    color: #131313;
+}
+
+.decroBg2 div {
+    line-height: 24px;
+    margin-top: 8px;
+    padding: 0 15px;
+    font-size: 16px;
+
+}
+
+.decroBg2 div span {
+    font-size: 18px;
+}
+
+/*度假主题 结束*/
+
+/*搜索酒店开始*/
+.n_conBox {
+    width: 100%;
+}
+
+.n_explore {
+    height: 510px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.n_conBoxTC_2 {
+    float: left;
+    margin-right: 22.3px;
+    overflow: hidden;
+
+}
+
+.n_conBoxTC_2:last-child {
+    float: left;
+    margin-right: 0px;
+}
+
+.searchHotelBoxOne {
+    width: 385px;
+    float: left;
+    position: relative;
+}
+
+.searchHotelBoxOne .twig {
+    width: 100%;
+    height: 5px;
+    background: #169fff;
+    position: absolute;
+    top: 0px !important;
+    top: -10px;
+    display: none;
+}
+
+.searchHotelBoxOneT {
+    position: absolute;
+    width: 120px;
+    padding: 10px 50px;
+    border-radius: 15px;
+    background-color: black;
+    opacity: 0.6;
+    top: 160px;
+    right: 82px;
+}
+
+.searchHotelBoxOneT h3 {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-family: Microsoft Yahei, Tahoma, Geneva, sans-serif;
+    color: #ffffff;
+    width: 120px;
+}
+
+.colorBox {
+    width: 385px;
+    height: 100px;
+    position: absolute;
+    bottom: 0px !important;
+    bottom: -1px;
+    font-family: Microsoft Yahei, Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    background: #169fff;
+}
+
+.colorBoxC {
+    width: 325px;
+    height: 70px;
+    position: absolute;
+    top: 14px;
+    left: 40px;
+    line-height: 24px;
+}
+
+.colorBoxI {
+    width: 12px;
+    height: 11px;
+    background: url(../images/icons.png) -100px -200px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/*搜索酒店结束*/
+
+/*优惠广告 开始*/
+.preferential {
+    width: 100%;
+}
+
+.preferential1 {
+    padding: 33px 0px !important;
+}
+
+.n_funBar {
+    background-color: #F7F7F7;
+    height: 119px;
+}
+
+.n_funBoxOne {
+    float: left;
+    width: 385px;
+}
+
+.n_funBoxOne .icon {
+    width: 65px;
+    height: 65px;
+    background: url(../images/icons.png) no-repeat;
+    margin-left: 40px !important;
+    margin-left: 20px;
+    margin-top: 30px;
+    float: left;
+    margin-right: 20px;
+    background: url("../images/icons.png") 0px 0px;
+}
+
+.n_funBoxOne .tle {
+    font-size: 18px;
+    width: 200px;
+    color: #4f89cf;
+    margin-top: 30px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.n_funBoxOne span {
+    display: block;
+    float: left;
+    font-family: Microsoft Yahei, Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.vertical_line {
+    width: 1px;
+    height: 80px;
+    background-color: #D7E8FF;
+    float: left;
+    margin: 20px 0;
+}
+
+/*优惠广告 开始*/
+
+/*底部菜单 开始*/
+.footer {
+    width: 100%;
+    padding: 20px 0;
+    border-top: 1px solid #EEE;
+    min-width: 1000px;
+    margin-top: 20px;
+
+}
+
+.footer_info_1 dl {
+    float: left;
+    width: 18%;
+    padding-left: 7%;
+}
+
+.footer_info_1 dt {
+    border-left: 3px solid #5D96C7;
+    padding: 0 0 0 10px;
+    height: 18px;
+    font: 18px/1 Microsoft Yahei;
+    margin-bottom: 10px;
+}
+
+.footer_info_1 dd {
+    padding-left: 14px;
+    line-height: 24px;
+}
+
+.app {
+    width: 100px;
+    height: 100px;
+    float: left;
+    background: url("../images/icon2015-0.png") no-repeat;
+    background-position: -261px -56px;
+
+}
+
+.weixin {
+    width: 100px;
+    height: 100px;
+    float: left;
+    background: url("../images/icon2015-0.png") no-repeat;
+    background-position: -364px -57px;
+}
+
+/*底部菜单 结束*/
+

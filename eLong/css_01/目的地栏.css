@@ -1,0 +1,212 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family:"宋体";
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+textarea {
+    resize: none;
+}
+
+/*防止拖动*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*  去掉图片低测默认的3像素空白缝隙*/
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+    color: #555;
+    background: #fff
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C81623;
+}
+s, i, em {
+    font-style: normal;
+    text-decoration: none;}
+
+/*目的地栏开始*/
+.destination{
+    width: 1200px;
+    margin:20px auto 0;
+}
+.title{
+    width: 1200px;
+    height: 42px;
+    border-bottom: 2px solid #8C2;
+}
+.left-text{
+    float: left;
+    line-height: 42px;
+
+}
+.left-text span{
+    font-size: 25px;
+    font-weight: 700;
+    color: #8C2;
+}
+.left-text a:hover{
+    color: #8C2;
+}
+.right-text{
+    float: right;
+    line-height: 42px;
+}
+.destination-bt{
+    margin-top: 18px;
+    overflow: hidden;
+
+    width: 1200px;
+
+}
+.pub-dbox{
+    height: 80px;
+    width: 80px;
+    float: left;
+    margin-left: 15px;
+}
+.content{
+    margin: 0 15px 0 110px;
+    height: 80px;
+    overflow:hidden;
+}
+
+.content dt{
+    color: #8C2;
+    font-size: 18px;
+    margin: 3px 0 5px 4px;
+}
+
+.content dd{
+    float: left;
+    cursor: pointer;
+    padding: 0 5px;
+    margin: 0 5px 4px 0;
+}
+.destination-bt li{
+
+    float: left;
+    width: 33%;
+}
+.pub-boxs{
+    border-right: 1px solid #F1F1F1;
+}
+.pub-boxb{
+    border-bottom: 1px solid #F1F1F1;
+
+}
+.content dd:hover{
+    background-color: #8C2;
+
+}
+.content dd:hover a{
+    color: white;
+
+}
+
+.pub-a{
+    padding-bottom: 15px;
+}
+.pub-b{
+    padding-top: 15px;
+}
+.huadong span{
+    display: none;
+    float: left;
+    width: 80px;
+    height: 80px;
+
+
+}
+.boximg1{
+    background:url("../images/hotel_index_icon.png") no-repeat 0 0;
+}
+.boximg2{
+     background:url("../images/hotel_index_icon.png") no-repeat -595px 0;
+ }
+.boximg3{
+    background:url("../images/hotel_index_icon.png") no-repeat -170px 0;
+}
+.boximg4{
+    background:url("../images/hotel_index_icon.png") no-repeat -340px 0;
+}
+.boximg5{
+    background:url("../images/hotel_index_icon.png") no-repeat -85px 0;
+}
+.boximg6{
+    background:url("../images/hotel_index_icon.png") no-repeat -425px 0;
+}
+.boximg1 span{
+    background:url("../images/hotel_index_icon.png") no-repeat 0 -100px;
+
+}
+.boximg2 span{
+    background:url("../images/hotel_index_icon.png") no-repeat -595px -100px;
+
+}
+.boximg3 span{
+    background:url("../images/hotel_index_icon.png") no-repeat -170px -100px;
+
+}
+.boximg4 span{
+    background:url("../images/hotel_index_icon.png") no-repeat -340px -100px;
+
+}
+.boximg5 span{
+    background:url("../images/hotel_index_icon.png") no-repeat -85px -100px;
+
+}
+.boximg6 span{
+    background:url("../images/hotel_index_icon.png") no-repeat -425px -100px;
+
+}
+/*目的地栏结束*/
